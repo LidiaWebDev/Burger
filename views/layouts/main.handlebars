@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link href="assets/css/burger.css" rel="stylesheet" type="text/css" />
+	<style>
+		body {
+			background-image: linear-gradient(red, yellow);
+		}
+
+		header {
+			text-align: center;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		ul li {
+			justify-content: space-between;
+			display: flex;
+		}
+
+		.eat-btn,
+		#submit-btn {
+			background-color: lightgreen;
+			border-color: lightgreen;
+			width: 100px;
+		}
+
+		.eat-btn:hover,
+		#submit-bt {
+			background-color: rgb(46, 100, 46);
+			border-color: rgb(46, 100, 46);
+			;
+		}
+
+		form {
+			margin-top: 20px;
+			margin-bottom: 50px;
+		}
+
+		#input-label {
+			font-size: 34px;
+		}
+
+		.lead {
+			font-size: 34px;
+		}
+
+		.center footer {
+			text-align: center;
+
+		}
+	</style>
+	<title>Burgers app</title>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/public/assets/burgers.js"></script>
+</head>
+
+<body>
+
+
+
+	<div class="container text-center main-text">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="display-4">Delicious burgers of all times!</h1>
+				<img class="img-responsive" src="/assets/img/burger.jpeg" alt="burger picture">
+
+			</div>
+		</div>
+	</div>
+	<div>
+		{{{ body }}}
+	</div>
+	<footer class=" center footer">
+		<div class="container">
+			<p> copyright © Burger App 2019</p>
+		</div>
+	</footer>
+
+
+
+</body>
+
+</html>
