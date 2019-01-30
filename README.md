@@ -1,3 +1,3 @@
 BURGER APP
 
-![](images burger.jpg)
+![](public/assets/img/burger.jpeg)
